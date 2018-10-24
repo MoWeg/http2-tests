@@ -1,0 +1,15 @@
+{
+  "name": "http2-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mwg",
+  "license": "ISC",
+  "dependencies": {
+    "finalhandler": "^1.1.1",
+    "http2-proxy": "^4.2.15"
+  }
+}
