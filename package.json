@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js --expose-http2"
   },
   "author": "mwg",
   "license": "ISC",
   "dependencies": {
-    "finalhandler": "^1.1.1",
-    "http2-proxy": "^4.2.15"
+    "http2-proxy": "^4.2.15",
+    "trumpet": "^1.7.2"
   }
 }
